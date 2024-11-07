@@ -1,13 +1,20 @@
+import Header from './components/Header'
+import Resumen from './components/Resumen'
+import Proyectos from './components/Proyectos'
+
+import Wave from './assets/Wave'
+
 function App() {
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col justify-items-center justify-center items-center gap-5">
-      <a className="lg:text-4xl md:text-3xl text-2xl">
-        Hola, soy Manuel Sánchez Pérez
-      </a>
-      <a className="text-lg md:text-xl">
-        Software Developer
-      </a>
-    </div>
+    <main className="flex flex-col items-center min-h-screen mx-auto sm:px-10 bg-gradient-to-t from-slate-800 via-slate-700 to-slate-600">
+      <Wave />
+      <Header />
+      <Resumen />
+      <Proyectos />
+      <div className='min-h-screen'>
+
+      </div>
+    </main>
   )
 }
 

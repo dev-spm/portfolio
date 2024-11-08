@@ -5,7 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      Raleway: "Raleway, sans-serif"
+    }
   },
   plugins: [],
 }

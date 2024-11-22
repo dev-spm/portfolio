@@ -11,20 +11,20 @@ export default function Projects() {
           Algunos de los proyectos en los que he trabajado.
         </div>
       </div>
-      <div id="block" className="bg-slate-500/50 flex flex-col gap-5 md:flex-row p-5 md:p-14 rounded-lg 
+      <div id="block" className="bg-slate-700 flex flex-col gap-5 md:flex-row p-5 md:p-14 rounded-lg 
                                 shadow-lg shadow-slate-500 items-center md:items-start text-center md:text-start">
         <div className="flex flex-col w-full md:w-1/2 text-slate-50 items-center md:items-start">
-          <p className="text-lg md:text-xl lg:text-2xl font-bold">
+          <p className="text-lg mb-3 md:text-xl lg:text-2xl font-bold">
             Portfolio
           </p>
           <p className="lg:text-lg">
             <a>Página web personal creada con </a>
-            <a className="font-bold bg-gradient-to-r from-rose-900 to-slate-800 text-transparent bg-clip-text">React </a>
+            <a className="font-bold bg-slate-950 text-transparent bg-clip-text">React </a>
             <a>y </a>
-            <a className="font-bold bg-gradient-to-r from-rose-900 to-slate-800 text-transparent bg-clip-text">TailwindCSS</a>
+            <a className="font-bold bg-slate-950 text-transparent bg-clip-text">TailwindCSS</a>
           </p>
         </div>
-        <div className="border h-40 w-36 md:w-1/2 bg-slate-500/50 text-center">Imagen</div>
+        <div className="border h-44 w-3/4 mb-3 md:mb-0 md:w-1/2 bg-slate-500/50 text-center">Imagen</div>
       </div>
     </div>
   )

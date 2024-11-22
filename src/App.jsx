@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <main className="font-Raleway flex flex-col items-center w-screen mx-auto sm:px-12 md:px-24 lg:px-36 bg-black">
+    <main className="font-Raleway flex flex-col items-center w-screen mx-auto sm:px-12 md:px-12 lg:px-36 bg-black">
       <Header />
       <Dashboard />
       <Projects />

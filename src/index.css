@@ -19,3 +19,11 @@
   animation-timeline: view();
   animation-range: entry 0% cover 30%;
 }
+
+@media (max-width: 768px) {
+  #block {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+}

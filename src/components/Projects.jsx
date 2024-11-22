@@ -12,7 +12,7 @@ export default function Projects() {
         </div>
       </div>
       <div id="block" className="bg-slate-700 flex flex-col gap-5 md:flex-row p-5 md:p-14 rounded-lg 
-                                shadow-lg shadow-slate-500 items-center md:items-start text-center md:text-start">
+                                items-center md:items-start text-center md:text-start">
         <div className="flex flex-col w-full md:w-1/2 text-slate-50 items-center md:items-start">
           <p className="text-lg mb-3 md:text-xl lg:text-2xl font-bold">
             Portfolio
@@ -24,7 +24,9 @@ export default function Projects() {
             <a className="font-bold bg-slate-950 text-transparent bg-clip-text">TailwindCSS</a>
           </p>
         </div>
-        <div className="border h-44 w-3/4 mb-3 md:mb-0 md:w-1/2 bg-slate-500/50 text-center">Imagen</div>
+        <div className="overflow-hidden border h-auto w-3/4 mb-3 md:mb-0 md:w-1/2 text-center">
+          <img className="w-full h-full object-cover" src="/img/portfolio.png" />
+        </div>
       </div>
     </div>
   )

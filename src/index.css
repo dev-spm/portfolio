@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes appear {
   from {
     opacity: 0;
@@ -20,7 +24,13 @@
   animation-range: entry 0% cover 30%;
 }
 
-@media (max-width: 768px) {
+#text {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+@media (max-width: 640px) {
   #block {
     animation: appear linear;
     animation-timeline: view();

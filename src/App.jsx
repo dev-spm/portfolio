@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Dashboard from './components/Dashboard'
 import Projects from './components/Projects'
+import About from './components/About'
 import Footer from './components/Footer'
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <Dashboard />
       <Projects />
-      <div className='min-h-screen'></div>
+      <About />
       <Footer />
     </main>
   )

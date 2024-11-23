@@ -14,7 +14,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className="w-full md:w-4/5 xl:w-3/4 sm:sticky z-10 sm:top-0 bg-neutral-800 border border-transparent 
+    <div className="w-full md:w-4/5 xl:w-3/4 sticky top-0 z-10 sm:top-0 bg-neutral-800 border border-transparent 
                   sm:rounded-full px-10 sm:px-7 py-5 sm:mt-5 text-white sm:flex justify-between items-center">
       <div className="flex justify-between">
         <img className="flex w-16" src={logo} />
@@ -30,7 +30,7 @@ export default function Header() {
         {
           Links.map((link) => (
             <li key={link.name} className="sm:ml-8 hover:text-red-500">
-              <a href={link.href}>{link.name}</a>
+              <button onClick={() => setIsOpen(false)}><a href={link.href}>{link.name}</a></button>
             </li>
           ))
         }

@@ -16,7 +16,7 @@ export default function Footer() {
       </div>
       <div className="w-full border-t-2 border-dashed border-gray-300 my-5"></div>
       <div className="flex h-full items-end justify-end">
-        <p>&copy; {new Date().getFullYear()} Manuel Sánchez Pérez. Todos los derechos reservados.</p>
+        <p>&copy; {new Date().getFullYear()}</p>
       </div>
     </div>
   )

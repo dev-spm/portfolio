@@ -1,9 +1,10 @@
 import Portfolio from "./Projects/Portfolio";
 import Ecommerce from "./Projects/Ecommerce";
+import Todo from "./Projects/Todo";
 
 export default function Projects() {
   return (
-    <div id="projects" className="text-white flex flex-col gap-10 w-full py-32 px-14 md:px-24 xl:px-48 2xl:px-56 h-full my-10 sm:my-10">
+    <div id="projects" className="text-white flex flex-col gap-10 w-full py-32 px-14 md:px-24 xl:px-48 2xl:px-56 h-full my-10">
       <div>
         <div className="text-3xl font-bold text-center">
           Proyectos
@@ -13,7 +14,8 @@ export default function Projects() {
         </div>
       </div>
       <Ecommerce />
-      <Portfolio />
+      <Todo />
+      {/* <Portfolio /> */}
     </div>
   )
 }

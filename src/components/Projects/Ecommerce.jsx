@@ -24,7 +24,7 @@ export default function Ecommerce() {
           </button>
         </div>
       </div>
-      <div className="overflow-hidden rounded-xl h-auto w-3/4 mb-3 md:mb-0 md:w-1/2 text-center">
+      <div className="overflow-hidden rounded-md h-auto w-3/4 mb-3 md:mb-0 md:w-1/2 text-center">
         <img className="w-full h-full object-cover" src="/img/ecommerce.png" />
       </div>
     </div>
